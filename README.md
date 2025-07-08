@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a web-based **Notepad Application** where users can create, view, and update notes. It is a full-stack application with the frontend built in **React** and the backend in **Node.js** using **Express**. The project is containerized using **Docker**, with **Docker Compose** managing the deployment of both the frontend and backend services. This setup ensures consistency across different environments and simplifies the deployment process.
+This project is a web-based **Notepad Application** where users can create, view, and update notes. It is a full-stack application with the frontend built in **React** and the backend in **Node.js** using **Express**. The project is containerized using **Docker**, with **Docker Compose** managing the deployment of both frontend and backend services. This setup ensures consistency across different environments and simplifies the deployment process.
 
 ---
 
@@ -18,14 +18,14 @@ This project is a web-based **Notepad Application** where users can create, view
 ## Application Features
 
 1. **Frontend**:
-   - A user interface built using React and served via Vite, where users can interact with the application.
+   - A user interface built using **React** and served via **Vite**, where users can interact with the application.
    - Allows users to create, view, and update notes.
-   - Utilizes a clean, modern UI using Vite for hot-reloading during development.
+   - Utilizes a clean, modern UI using **Vite** for hot-reloading during development.
 
 2. **Backend**:
-   - A RESTful API built using Node.js and Express to manage notes.
-   - Supports basic CRUD operations (Create, Read, Update).
-   - Stores data temporarily in-memory for simplicity.
+   - A **RESTful API** built using **Node.js** and **Express** to manage notes.
+   - Supports **CRUD** operations (Create, Read, Update).
+   - Data is temporarily stored in-memory for simplicity.
 
 ---
 
@@ -40,7 +40,7 @@ cd notepad-web
 
 ### 2. Install Docker and Docker Compose
 
-Ensure that Docker and Docker Compose are installed on your machine. If not, follow these instructions:
+Ensure that **Docker** and **Docker Compose** are installed on your machine. If not, follow these instructions:
 
 * [Install Docker](https://docs.docker.com/get-docker/)
 * [Install Docker Compose](https://docs.docker.com/compose/install/)
@@ -76,9 +76,9 @@ docker-compose up
 
 You can now interact with the application:
 
-* **Create a Note**: Send a POST request to `http://localhost:3000/notes` with the note content.
-* **View Notes**: Send a GET request to `http://localhost:3000/notes` to fetch all notes.
-* **Update a Note**: Use a PUT request to modify the content of an existing note.
+* **Create a Note**: Send a **POST** request to `http://localhost:3000/notes` with the note content.
+* **View Notes**: Send a **GET** request to `http://localhost:3000/notes` to fetch all notes.
+* **Update a Note**: Use a **PUT** request to modify the content of an existing note.
 
 ---
 
@@ -92,11 +92,4 @@ You can access the full source code, Dockerfiles, and the **docker-compose.yml**
 
 ## Conclusion
 
-This project demonstrates how to set up, develop, and deploy a full-stack web application using Docker and Docker Compose. By containerizing the app, the development and deployment process becomes more efficient and consistent across different environments.
-
----
-
-## Next Steps
-
-* Add persistent storage for the backend (using Docker volumes) instead of relying on in-memory storage.
-* Implement user authentication and note-sharing functionality for future improvements.
+This project demonstrates how to set up, develop, and deploy a full-stack web application using **Docker** and **Docker Compose**. By containerizing the app, the development and deployment process becomes more efficient and consistent across different environments.
