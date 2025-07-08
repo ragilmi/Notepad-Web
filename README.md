@@ -1,4 +1,3 @@
-````markdown
 # Notepad Web Application - Dockerized
 
 ## Overview
