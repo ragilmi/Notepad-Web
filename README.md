@@ -1,5 +1,3 @@
-Here’s how you can structure the **README.md** file for your GitHub repository:
-
 ````markdown
 # Notepad Web Application - Dockerized
 
